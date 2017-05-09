@@ -1,0 +1,13 @@
+.images {
+  height: 800px;
+  width: 650px;
+}
+#fightClub {
+  background-image: url("../img/fight-club.jpg");
+}
+#thor {
+  background-image: url("../img/thor.jpg");
+}
+#troll {
+  background-image: url("../img/troll.jpg");
+}
