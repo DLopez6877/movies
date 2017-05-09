@@ -1,13 +1,89 @@
+body {
+  background-color: lightblue;
+}
 .images {
   height: 800px;
   width: 650px;
+  padding-top: 30%;
 }
 #fightClub {
   background-image: url("../img/fight-club.jpg");
+  background-position: center;
 }
 #thor {
   background-image: url("../img/thor.jpg");
+  background-position: center;
 }
 #troll {
   background-image: url("../img/troll.jpg");
+  background-position: center;
+}
+
+
+.btn-info {
+  border: 2px solid grey;
+  background-color: yellow;
+  color: black;
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.initially-hidden {
+  display: none;
+}
+/*movies*/
+.jumbotron {
+  background-color: grey;
+  text-align: center;
+  font-family: Alfa Slab One;
+  border-bottom: 10px dashed black;
+}
+
+.jumbotron h1{
+  font-size: 8em;
+}
+
+
+/*stubs*/
+.ticketStub {
+  height: 300px;
+  width: 550px;
+  border: 6px solid black;
+  background-color: lightblue;
+  box-shadow: 0 0 150px #295664;
+}
+
+.ticketStub h1 {
+  background-color: yellow;
+  font-family: 'Bangers', cursive;
+  text-indent: 20px;
+  border: 1px solid black;
+}
+
+.ticketStub h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  background-color: grey;
+  margin: 0 0 20px;
+  padding: 20px 0;
+  border-bottom: 3px dashed black;
+}
+.altImages {
+  height: 598px;
+}
+.col-md-4 h1{
+  font-family: Alfa Slab One;
+  color: red;
+  font-size: 40px;
+}
+.col-md-4 {
+  border: 5px solid black;
+  border-radius 10px;
+}
+
+.col-md-4 p{
+  font-size: 17px;
+
 }

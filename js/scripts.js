@@ -16,8 +16,6 @@ Ticket.prototype.calCost = function(time, age) {
   }
 }
 
-
-
 //Front-END LOGIC
 $(document).ready(function() {
   $('.carousel').carousel();
@@ -32,9 +30,13 @@ $(document).ready(function() {
     var newTicket = new Ticket(this.time, userAge);
     newTicket.cost = newTicket.calCost(this.time, userAge);
 
-    console.log(newTicket);
-
-    
+    if (userAge >= 18) {
+      $(".ticketStub").append( "<h1>" + $(".initially-hidden").val() + "</h1>" + "<h1>" + newTicket.time + "</h1>" + "<h1>" + newTicket.cost + "</h1>");
+      $(".row").hide();
+      $(".ticketStub").fadeIn(2000);
+    } else {
+      alert("Sorry little dude. This is rated R.");
+    }
 
   });
 });
